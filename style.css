@@ -1,0 +1,498 @@
+*{
+     margin: 0;
+     padding: 0;
+ 
+     
+
+}
+body{
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/3e4bd046-85a3-40e1-842d-fa11cec84349/web/IN-en-20250818-TRIFECTA-perspective_4bd1b66d-bbb6-4bc6-ba8f-ecbba53a1278_large.jpg');
+     background-color:rgba(9, 9, 10, 0.8) ;
+      background-size: contain;
+      min-height: 100vh;
+      width: 100%;
+   
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+
+    
+   
+}
+.nav{
+    display: flex;
+  
+   
+}
+
+.nav-content{
+    margin: 20px;
+    color: white;
+}
+.nav-content{
+    /* background-color: white; */
+    padding: 10px;
+    border-radius: 5px;
+}
+#translate-box{
+    border: 1px solid white;
+    background-color: rgba(27, 23, 23, 0.336);
+}
+
+.nav-content select{
+    background-color: rgba(27, 23, 23, 0.336);
+    color: white;
+}
+.nav-content select,button{
+   border:0px;
+   
+}
+select{
+    border-style: none;
+}
+.nav-content a{
+    text-decoration: none;
+    color: white;
+
+
+}
+#btn,.nav-content button{
+    background-color: red;
+}
+main{
+    padding-top: 100px;
+    background-color: rgba(11, 10, 10, 0.623) ;
+}
+.section1{
+    
+    color: white;
+    padding: 70px;
+    text-align:center;
+    height: 400px;
+    font-size: large;
+}
+.section1-content{
+    display: flex;
+    justify-content: center;
+    line-height: 2.5;
+    
+   
+    
+}
+.sec1-btn button , input[type="email"]{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 150px;
+       
+}
+input[type="email"]{
+    background-color:  rgba(27, 23, 23, 0.336);
+    color: white;
+    width: 200px;
+   
+   
+}
+.sec1-btn button{
+    background-color: red;
+    color: white;
+}
+.section2{
+    background-color:rgba(27, 23, 23, 0.336);
+    color :white;
+    display: flex;
+    justify-content: space-around;
+   
+ 
+
+}
+.section2-content img{
+    height: 200px;
+    border-radius: 10px;
+}
+.section2-content img:hover{
+       border-radius: 8px;
+       transform: scale(1.03);
+       transition: 0.3s ease;
+}
+ h2{
+    margin-bottom: 20px;
+    color: white ;
+    font-weight: bolder;
+}
+#trending{
+    /* text-align:justify; */
+     background-color: black;
+     padding: 50px;
+     color: white;
+     font-weight: bolder;
+     border-top: 5px solid rgb(160, 33, 63);
+     border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+      
+      
+
+}
+#reason{
+    background-color: black;
+     padding: 50px;
+     color: white;
+     /* font-weight: bolder; */
+  
+}
+.section3
+{   display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    color: white;
+
+}
+.section3-content{
+    /* background-color: rgb(85, 42, 142); */
+    border-radius: 8px;
+    width: 500px;
+    margin-top: 10px;
+    padding: 20px;
+    background: linear-gradient(to right,#7d3541, #10082c);
+    line-height: 1.8;
+
+}
+   
+.faq-container{
+    display: block;
+   background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+.faq-item{
+    margin: 10px;
+    width: 95%;
+     background-color: rgb(56, 52, 52);
+     padding: 30px;
+     justify-content: space-between;
+     display: flex;
+      /* font-weight: bold; */
+      font-size: large;
+}
+.faq-item:hover{
+    background-color:rgb(131, 122, 122) ;
+}
+.watch{
+    background-color: black;
+}
+.watch-ready{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.watch-ready button , input[type="email"]{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+}
+.watch-ready button {
+    width: 200px;
+}
+.watch-ready button {
+    background-color: red;
+    color: white;
+}
+.watch-container{
+    padding: 50px;
+    line-height: 2.0;
+}
+.watch-container p{
+    /* margin-top: 50px; */
+     text-align: center;
+     color: white;
+    /* justify-content: center; */
+}
+footer{
+    background-color: black;
+    color: gray;
+    padding: 50px;
+}
+footer select{
+    border-style: none;
+}
+.footer-contents{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content{
+    padding-top: 20px;
+}
+.footer-content a{
+    display: block;
+    line-height: 2.6;
+    color: gray;
+}
+.footer-translate{
+    border: 1px solid white;
+    background-color: rgba(27, 23, 23, 0.336);
+    display: inline;
+    padding: 10px;
+    /* margin-top: 20px; */
+    border-radius: 5px;
+   
+}
+.footer-translate select{
+    border: 0px;
+    background-color: rgba(27, 23, 23, 0.336);
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+      
+
+
+
+}
+footer p{
+    margin-top: 20px ;
+}
+@media (max-width:768px) and (min-width:320px) {
+  
+   body{
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/3e4bd046-85a3-40e1-842d-fa11cec84349/web/IN-en-20250818-TRIFECTA-perspective_4bd1b66d-bbb6-4bc6-ba8f-ecbba53a1278_large.jpg');
+    background-color:rgba(9, 9, 10, 0.8) ;
+      background-size: cover;
+      min-height: 100vh;
+    background-position: center top;
+
+   
+
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 35%;
+   
+}
+
+.nav img{
+    padding-top: 20px;
+    width: 80px;
+    height: 20px;
+    padding-left: 8px;
+}
+.nav-content{
+    margin: 10px;
+    color: white;
+}
+.nav-content{
+    padding: 10px;
+    border-radius: 5px;
+}
+#translate-box{
+    border: 1px solid white;
+    background-color: rgba(27, 23, 23, 0.336);
+}
+
+
+.nav-content select,button{
+   border:0px;
+   
+}
+.section1{
+   color: white;
+font-size: medium;
+}
+.section1-content{
+    display: block;
+    justify-content: center;
+    line-height: 1.6;
+    
+   
+    
+}
+.sec1-btn button , input[type="email"]{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+       
+}
+.sec1-btn input[type="email"]{
+    background-color:  rgba(27, 23, 23, 0.336);
+    color: white;
+    width: 200px;
+    padding: 10px;
+   
+    
+
+   
+   
+}
+.sec1-btn button{
+    background-color: red;
+    color: white;
+}
+.section2{
+    background-color:rgba(27, 23, 23, 0.336);
+    color :white;
+    justify-content: space-evenly;
+   
+ 
+
+}
+.section2-content img{
+    height: 200px;
+    border-radius: 10px;
+    margin: 5px;
+  
+}
+.section2-content img:hover{
+       border-radius: 8px;
+       transform: scale(1.03);
+       transition: 0.3s ease;
+}
+ h2{
+    margin-bottom: 20px;
+    color: white ;
+    font-weight: bolder;
+}
+#trending{
+    
+     background-color: black;
+     padding: 50px;
+     color: white;
+     border-top: 5px solid rgb(160, 33, 63);
+     border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+      
+      
+
+}
+
+.section3
+{   display: block;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    padding: 10px;
+   
+
+}
+.section3-content{
+    
+    border-radius: 8px;
+    width: 150px;
+    margin-top: 5px;
+    padding: 40px;
+    background: linear-gradient(to right,#7d3541, #10082c);
+   
+    font-size: small;
+
+}
+.card-icon img{
+    height: 40px;
+    width: 50px;
+    float: right;
+  border-radius: 50%;
+ 
+
+}
+
+   
+.faq-container{
+    display: block;
+   background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+.faq-item{
+    margin: 10px;
+    width:200px ;
+     background-color: rgb(56, 52, 52);
+     padding: 30px;
+     justify-content: space-between;
+     display: flex;
+      font-size: medium;
+}
+.faq-item:hover{
+    background-color:rgb(131, 122, 122) ;
+}
+.watch{
+    background-color: black;
+}
+.watch-ready{
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+}
+.watch-ready button , input[type="email"]{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+}
+.watch-ready button {
+    width: 100px;
+}
+.watch-ready button {
+    background-color: red;
+    color: white;
+}
+.watch-container{
+    padding: 50px;
+    line-height: 1.6;
+}
+.watch-container p{
+  
+     text-align: center;
+     color: white;
+  
+}
+footer{
+    background-color: black;
+    color: gray;
+    padding: 20px;
+}
+.footer-contents{
+    display: block;
+    justify-content: space-between;
+}
+.footer-content{
+    padding-top: 20px;
+}
+.footer-content a{
+    display: block;
+    line-height: 2.6;
+    color: gray;
+    font-size: small;
+}
+.footer-translate{
+    border: 1px solid white;
+    background-color: rgba(27, 23, 23, 0.336);
+    display: inline;
+    padding: 10px;
+    border-radius: 5px;
+   
+}
+.footer-translate select{
+    border: 0px;
+    background-color: rgba(27, 23, 23, 0.336);
+    color: white;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      
+
+
+
+}
+footer p{
+    margin-top: 10px ;
+}
+
+}
